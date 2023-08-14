@@ -1,0 +1,26 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "junesfarhat@gmail.com",
+                "Name": "June Farhat"
+            }
+        ],
+        "Category": "Graphics",
+        "Description": "Plasmoid for controlling the display refresh rate",
+        "EnabledByDefault": true,
+        "Icon": "preferences-system-display",
+        "Id": "com.github.willf668.refreshrate",
+        "License": "GPL-2.0+",
+        "Name": "Refresh Rate Control",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "SystemServices"
+}
